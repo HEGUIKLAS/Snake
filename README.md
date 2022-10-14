@@ -7,7 +7,7 @@ The code is structured int four different files:
   settings.txt list of all important variables used to set up game
   
 Movement:
-  [A] - move angle left
-  [B] - move angle right
-  [ ] - snake moves forward automatically
+  [A] move angle left
+  [B] move angle right
+  snake moves forward automatically
   
