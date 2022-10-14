@@ -1,13 +1,25 @@
 # Snake
 A simple snake game, you can move uder an angle other than 0, 90, 180, 270 and also there are a few walls on the map
-The code is structured int four different files:
-  main.py handles data from te three other files, it contains the class Game responsible for handeling all the computations
+inspiration: https://en.wikipedia.org/wiki/Snake
+
+
+Movement:
+  [A] / [K_LEFT] - rotate left
+  [D] / [K_RIGHT] - rotate right
+  [ESCAPE] - closes program
+
+
+needed libraries:
+  link to download library, optimaliyed for version 1.9.6 - https://www.pygame.org/download.shtml 
+  console command for installing pygame - python3 -m pip install -U pygame --user
+  
+to run program open main.py, program is optimaliyed for python 3.10.8
+check if all needed libraries are installed
+
+
+
+The code is structured into four different files:
+  main.py handles data from the three other files, it contains the class Game responsible for calling all usefull methods
   map.py  creates list of wall coordinates, draws self
   player.py handles inputs, snake movement, stores snake coords
-  settings.txt list of all important variables used to set up game
-  
-Movement:
-  [A] move angle left
-  [B] move angle right
-  [ ]snake moves forward automatically
-  
+  settings.txt all important variables used to set up game
