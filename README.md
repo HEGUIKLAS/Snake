@@ -9,5 +9,5 @@ The code is structured int four different files:
 Movement:
   [A] move angle left
   [B] move angle right
-  snake moves forward automatically
+  [ ]snake moves forward automatically
   
