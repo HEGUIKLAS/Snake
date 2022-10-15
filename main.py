@@ -1,4 +1,3 @@
-import player
 import pygame
 import sys
 from player import *
@@ -46,7 +45,9 @@ class Game:
         while True:
             self.get_events()
             self.draw()
-            self.player.update()
+            self.map.fruits = self.player.update(self.map.fruits)
+            if len(self.map.fruits) < max_fruits:
+                self.map.spawn_fruit()
             self.update()
 
 
