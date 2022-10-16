@@ -6,15 +6,18 @@ inspiration: https://en.wikipedia.org/wiki/Snake
 Movement:
   [A] / [K_LEFT] - rotate left
   [D] / [K_RIGHT] - rotate right
-  [ESCAPE] - closes program
+  [Q] - closes program
 
 
 needed libraries:
-  link to download library, optimaliyed for version 1.9.6 - https://www.pygame.org/download.shtml 
+  link to download library, optimalized for version 1.9.6 - https://www.pygame.org/download.shtml 
   console command for installing pygame - python3 -m pip install -U pygame --user
   
-to run program open main.py, program is optimaliyed for python 3.10.8
+to run program:
+program is optimalized for python 3.10.8
 check if all needed libraries are installed
+open main.py
+
 
 
 
@@ -23,3 +26,4 @@ The code is structured into four different files:
   map.py  creates list of wall coordinates, draws self
   player.py handles inputs, snake movement, stores snake coords
   settings.txt all important variables used to set up game
+put them in one file, or change the import statements to the correct path
