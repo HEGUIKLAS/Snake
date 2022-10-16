@@ -46,7 +46,7 @@ class Game:
             keys = pygame.key.get_pressed()
             if keys[pygame.K_q] or event.type == pygame.QUIT:
                 pygame.quit()
-                sys.exit("cgo")
+                sys.exit("bajo")
             if keys[pygame.K_r]:
                 self.reset_game()
                 return True
