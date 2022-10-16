@@ -24,7 +24,7 @@ class Map:
         self.fruit_space = []
         self.get_map()
         self.get_fruit_space()
-        self.fruits = [(0, 0)]
+        self.fruits = []
 
 # transforms map into a list of walls and coordinates
     def get_map(self):
