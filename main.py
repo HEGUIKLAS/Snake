@@ -57,6 +57,7 @@ class Game:
         self.player.x, self.player.y = player_pos
         self.map.fruits = []
         self.draw_game()
+        self.player.angle = 0
 
     def endscreen(self):
         while True:
